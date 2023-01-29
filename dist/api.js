@@ -342,7 +342,7 @@ exports.OpenAIApiAxiosParamCreator = function (configuration) {
             // verify required parameter 'image' is not null or undefined
             common_1.assertParamExists('createImageEdit', 'image', image);
             // verify required parameter 'mask' is not null or undefined
-            common_1.assertParamExists('createImageEdit', 'mask', mask);
+            // common_1.assertParamExists('createImageEdit', 'mask', mask);
             // verify required parameter 'prompt' is not null or undefined
             common_1.assertParamExists('createImageEdit', 'prompt', prompt);
             const localVarPath = `/images/edits`;

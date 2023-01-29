@@ -1693,7 +1693,7 @@ export declare const OpenAIApiAxiosParamCreator: (configuration?: Configuration)
      * @param {*} [options] Override http request option.
      * @throws {RequiredError}
      */
-    createImageEdit: (image: File, mask: File, prompt: string, n?: number, size?: string, responseFormat?: string, user?: string, options?: AxiosRequestConfig) => Promise<RequestArgs>;
+    createImageEdit: (image: File, mask: File | null | undefined, prompt: string, n?: number, size?: string, responseFormat?: string, user?: string, options?: AxiosRequestConfig) => Promise<RequestArgs>;
     /**
      *
      * @summary Creates a variation of a given image.
